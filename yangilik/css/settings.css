@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+.nav {
+  z-index: 1;
+  width: 100%;
+  padding: 35px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F7F5FA;
+}
+
+.nav-menu {
+  gap: 30px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7A7A7A;
+}
+
+.nav-menu_item {
+  transition: 150ms;
+}
+.nav-menu_item:hover {
+  color: #F8B07C;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 5% 10%;
+  text-align: left;
+  background-color: #F7F5FA;
+  margin: 0 auto;
+}
+.header-img {
+  width: 100%;
+  height: 100%;
+}
+.header-img .main-img {
+  border-radius: 10px;
+  height: 500px;
+}
+.header-article {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 10px;
+  border: 1px solid #B1B1B1;
+  background-color: #FFFFFF;
+}
+.header-article_date {
+  color: #B1B1B1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154.52%;
+}
+.header-article_title {
+  color: #2D2D2D;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 154.52%;
+}
+.header-article .p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 154.52%;
+}
+
+.footer {
+  width: 100%;
+  padding: 70px;
+  background: #2D2D2D;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.footer-social {
+  text-align: left;
+}
+.footer-social_title {
+  padding-bottom: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100.02%;
+}
+.footer-social_icons_item {
+  padding: 15px;
+}
+.footer-navigate_title {
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100.02%;
+  color: white;
+}
+.footer-navigate_link {
+  display: flex;
+  gap: 70px;
+}
+.footer-navigate_menu_items {
+  padding-bottom: 14px;
+  color: #7A7A7A;
+  font-size: 16px;
+}
+.footer-location {
+  color: #7A7A7A;
+}
+.footer-location_title {
+  color: white;
+}
+.footer-location_items_locate {
+  display: flex;
+  padding: 18px 0;
+  font-size: 16px;
+}
+.footer-location_number {
+  display: flex;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}/*# sourceMappingURL=settings.css.map */

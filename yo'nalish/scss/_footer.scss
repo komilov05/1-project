@@ -1,0 +1,63 @@
+.footer{
+    width: 100%;
+    padding: 70px;
+    background: #2D2D2D;
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+
+    &-social{
+        text-align: left;
+       
+        &_title{
+            padding-bottom: 30px;
+            color: white;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 100.02%;
+        }
+        &_icons_item{
+            padding: 15px;
+        }
+    }
+    &-navigate{
+
+        &_title{
+            padding-bottom: 30px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 100.02%;
+            color: white;
+        }
+        &_link{
+            display: flex;
+            gap: 70px;
+
+        }
+        &_menu_items{
+            padding-bottom: 14px;
+            color: #7A7A7A;
+            font-size: 16px;
+        }
+
+    }
+    &-location{
+        color: #7A7A7A;
+        &_title{
+            color: white;
+        }
+        &_items_locate{
+            display: flex;
+            padding: 18px 0;
+            font-size: 16px;
+            
+        }
+        &_number{
+            display: flex;
+            font-size: 16px;
+        }
+        
+    }
+
+}

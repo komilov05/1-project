@@ -1,0 +1,45 @@
+.header{
+    background-color:  #F7F5FA;
+    position: relative;
+    .background-left{
+        position: absolute;
+        background-image: url('../img/background-left.png');
+        left: 0;
+        top: 200px;
+        z-index: -1;
+    }
+    .background-right{
+        position: absolute;
+        right: 0;
+        top: 0px;
+        z-index: -1;
+    }
+}
+.nav{
+    z-index: 1;
+    width: 100%;
+    padding: 35px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav-menu{
+    gap: 30px;
+    
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: $secondary;
+}
+
+.nav-menu_item{
+   transition: 150ms;
+   &:hover{
+    color: $primary;
+
+   }
+}

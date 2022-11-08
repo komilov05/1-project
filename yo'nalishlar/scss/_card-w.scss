@@ -1,0 +1,46 @@
+.card-w{
+    width: 520px;
+    height: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(85, 85, 85, 0.1);
+    border-radius: 14px;
+
+    display: flex;
+    text-align: left;
+    &_article{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 40px 20px;
+    }
+
+    &_title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 100%;
+        color: #2D2D2D;
+        padding: 20px 0 20px 0px;
+    }
+    &_subtitle{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 138.02%;
+        color: $secondary;
+        padding: 15px 0 0 20px;
+    }
+    &_date{
+        padding: 30px 20px 35px 0px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100.02%;
+        text-align: left;
+        
+
+        & p{
+            color: #B1B1B1;
+        }
+        & a{
+            color: $primary;
+        }
+    }
+}

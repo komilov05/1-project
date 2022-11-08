@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import 'vars';
+
+@import 'card-h';
+
+@import  'card-w';
+
+@import  'btns';
+
+@import 'nav';
+
+@import 'main';
+
+@import 'news';
+
+@import 'directions';
+
+@import 'statics';
+
+@import  'footer';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+
+}

@@ -1,0 +1,40 @@
+@mixin btns ($outline:false,$solid:false) {
+    padding: 6px 20px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    font-size:16px ;
+    font-weight: 500;
+    line-height: 154.52%;
+
+    @if $outline == true {
+        border: 1px solid $primary;
+        color: $primary;
+        &:hover{
+            background: #F8EDE5;
+        }
+        &:active{
+            background: #F1D6C2;
+        }
+    }
+    @if $solid == true {
+        background: #F8B07C;
+        color: white;
+        border: $primary;
+        &:hover{
+            background: #F9C8A5;
+        }
+        &:active{
+            background: #EF9351;
+        }
+    }
+}
+.btn-1,.btn-1:active{
+    @include btns($outline:true )
+
+}
+.btn-2,.btn-2:active{
+    @include btns($solid:true )
+
+}

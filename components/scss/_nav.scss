@@ -1,0 +1,27 @@
+.nav{
+    width: 100%;
+    padding: 35px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav-menu{
+    gap: 30px;
+    
+    display: flex;
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: $secondary;
+}
+
+.nav-menu_item{
+   transition: 150ms;
+   &:hover{
+    color: $primary;
+
+   }
+}
